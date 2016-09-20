@@ -7,6 +7,7 @@
 
 # Site settings
 title: Deneb Solutions Limited
+img: ./Deneb_sml_logo.jpg
 email: sam.rowe@deneb.co.uk
 description: > # this means to ignore newlines until "baseurl:"
   Samuel Rowe works as a Cloud engineer and Dev Ops consultant and uses this blog to share his ideas and experiences in streamlining cloud integration services.

@@ -14,7 +14,7 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #111;
+$text-color:       #2d2d2d;
 $background-color: #fdfdfd;
 $brand-color:      #ffa500;
 
@@ -43,7 +43,10 @@ $on-laptop:        800px;
     }
 }
 
-
+@mixin company-logo($file) { 
+	content: url(#{file}.jpg);
+	object-fit: center;
+}
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
@@ -51,3 +54,9 @@ $on-laptop:        800px;
         "layout",
         "syntax-highlighting"
 ;
+
+.logo {
+	@include company-logo('deneb_sml_logo');
+	width: 50%;
+	padding: 10px;
+}

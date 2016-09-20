@@ -24,6 +24,17 @@
         color: $grey-color-dark;
     }
 }
+/* padding is working, but position is still not correct.  
+want it in the middle of the screen between Title and About.*/
+.site-img {
+    horizontal-alignment: middle;
+    height: 100px;
+    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 0px; 
+
+}
+
 
 .site-nav {
     float: right;
@@ -200,6 +211,10 @@
 /**
  * Posts
  */
+.post {
+    background-color: #ffa500;
+}
+
 .post-header {
     margin-bottom: $spacing-unit;
 }
