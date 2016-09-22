@@ -44,7 +44,7 @@ $on-laptop:        800px;
 }
 
 @mixin company-logo($file) { 
-	content: url(#{file}.jpg);
+	content: url(#{$file}.jpg);
 	object-fit: center;
 }
 
@@ -55,8 +55,10 @@ $on-laptop:        800px;
         "syntax-highlighting"
 ;
 
+/*Moved this class info to the layout.scss file, appears to be working in there.
+
 .logo {
-	@include company-logo('deneb_sml_logo');
-	width: 50%;
-	padding: 10px;
-}
+    @include company-logo('deneb_sml_logo');
+    width: 50%;
+    padding: 10px;
+}*/
