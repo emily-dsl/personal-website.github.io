@@ -18,3 +18,7 @@ You can view my public folders in Git Hub at:
 You can find the source code for Jekyll at
 {% include icon-github.html username="jekyll" %} /
 [jekyll](https://github.com/jekyll/jekyll)
+
+You can contact Sam via his LinkedIn page: 
+{% include icon-linkedin.html username="Samuel Rowe" %}
+[Samuel Rowe](https://gb.linkedin.com/SamuelRowe)
