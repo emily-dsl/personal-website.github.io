@@ -14,6 +14,7 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://ds.limited" # the base hostname & protocol for your site
 google_username: sam.rowe@deneb.co.uk
+email: sam.rowe@deneb.co.uk
 twitter_username: sam_rowe
 github_username:  Sam-Rowe
 linkedin_username:  samuelcprowe

@@ -8,19 +8,14 @@
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
           <li>{{ site.title }}</li>
-          {% if site.google_username %}
+          <!--{% if site.google_username %}
           <li>
             {% include icon-google.html username=site.google_username %}
           </li>
-          {% endif %}
-
-
-          
-          <!--{% if site.google_username %}
-          <li><a href="mailto:{{ site.email }}">{% include icon-google.html %} {{ site.email }}</a></li>
           {% endif %}-->
-          
 
+          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          
         </ul>
       </div>
 
